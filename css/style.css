@@ -18,6 +18,19 @@ body {
   justify-content: center;
 }
 
+.container {
+  width: 700px;
+}
+
+p {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
 .loading {
   display: flex;
   margin-bottom: 15px;
@@ -34,11 +47,11 @@ body {
 }
 
 .social-media {
-  font-size: 40px;
   margin-top: 15px;
 }
 .social-link {
   color: white;
+  font-size: 40px;
   transition: all .3s;
 }
 .social-link:hover {
