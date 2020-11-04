@@ -1,0 +1,53 @@
+/* Importando fonte Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #222;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fira Code', monospace;
+  height: 100vh;
+  justify-content: center;
+}
+
+.loading {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.loader {
+  border: solid 5px white;
+  border-radius: 50%;
+  border-right: solid 5px transparent;
+  height: 30px;
+  width: 30px;
+
+  animation: loader 1s infinite linear;
+}
+
+.social-media {
+  font-size: 40px;
+  margin-top: 15px;
+}
+.social-link {
+  color: white;
+  transition: all .3s;
+}
+.social-link:hover {
+  color: cornflowerblue;
+}
+
+/* Animações CSS */
+
+@keyframes loader {
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+}
