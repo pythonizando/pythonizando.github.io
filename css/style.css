@@ -46,6 +46,22 @@ h3 {
   animation: loader 1s infinite linear;
 }
 
+.link-item {
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  padding: 5px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: all .3s;
+  width: 250px;
+}
+.link-item:hover {
+  background-color: white;
+  color: #222;
+}
+
 .social-media {
   margin-top: 15px;
 }
@@ -64,3 +80,5 @@ h3 {
   from {transform: rotate(0);}
   to {transform: rotate(360deg);}
 }
+
+/* Fim animações CSS */
