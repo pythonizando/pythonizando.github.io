@@ -8,77 +8,31 @@
 }
 
 body {
-  align-items: center;
   background-color: #222;
-  color: #eee;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Fira Code', monospace;
-  height: 100vh;
-  justify-content: center;
+  color: #e3e3e3;
+  font-family: 'Fira Code';
 }
 
 .container {
-  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
 }
 
-p {
-  margin-bottom: 25px;
-  margin-top: 15px;
+main {
+  margin-top: 30px;
+  text-align: center;
 }
 
-h3 {
-  margin-top: 20px;
-}
-
-.loading {
-  display: flex;
-  margin-bottom: 15px;
-}
-
-.loader {
-  border: solid 5px white;
-  border-radius: 50%;
-  border-right: solid 5px transparent;
-  height: 30px;
-  width: 30px;
-
-  animation: loader 1s infinite linear;
-}
+h2 {margin-top: 20px;}
 
 .link-item {
-  border: solid 1px white;
-  border-radius: 10px;
-  color: white;
-  display: block;
-  padding: 5px 20px;
-  margin-top: 15px;
-  text-decoration: none;
+  color: #e3e3e3;
+  font-size: 50px;
+  margin: 10px auto;
   transition: all .3s;
-  width: 250px;
+  width: 200px;
 }
 .link-item:hover {
-  background-color: white;
-  color: #222;
+  color: aqua;
 }
-
-.social-media {
-  margin-top: 15px;
-}
-.social-link {
-  color: white;
-  font-size: 40px;
-  transition: all .3s;
-}
-.social-link:hover {
-  color: cornflowerblue;
-}
-
-/* Animações CSS */
-
-@keyframes loader {
-  from {transform: rotate(0);}
-  to {transform: rotate(360deg);}
-}
-
-/* Fim animações CSS */
