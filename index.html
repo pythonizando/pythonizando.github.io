@@ -3,42 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O Bruno Developer</title>
+  <title>Bruno • Programador freelancer</title>
+
+  <!--Importando arquivos online do boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
   <!--Importando CSS pesonalizado-->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="public/css/style.css">
+
   <!--Importando ícones do site font awesome-->
   <script src="https://kit.fontawesome.com/4f7e005293.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a href="/" class="navbar-brand">Bruno • Programador</a>
+    </div>
+  </nav>
+
   <div class="container">
 
-    <header>
+  <header>
 
-      <h1>Bruno R. Pianca • Programador Python</h1>
-      <p>Olá, meu nome é Bruno e eu sou programador Python. Minha especialidade é desenvolver automações para tarefas complicadas ou no mínimo entediantes. Sou o típico preguiçoso. Meu site ainda não está pronto, mas você já pode fazer parte da minha comunidade clicando em um dos links abaixo...</p>
+    <h1>Bruno R. Pianca • Programador</h1>
+    <h4>Olá, me chamo Bruno, sou programador web, especialista nas tecnologias NodeJS e MySQL para banco de dados. Entre em contato para conversarmos sobre projetos e tire suas ideias do papel.</h4>
 
-    </header>
+  </header>
 
-    <main>
+  <main>
 
-      <h2>Grupos</h2>
-      <a href="https://discord.gg/YUx9YjU9Fu" class="link-item" target="_blank"><i class="fab fa-discord"></i></a>
-      <a href="https://chat.whatsapp.com/JbbiCVHR6wu1AxJkmM2y6u" class="link-item" target="_blank"><i class="fab fa-python"></i></a>
-      <a href="https://chat.whatsapp.com/ILQr5JqqcaMCPJo2R38CTy" class="link-item" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://t.me/joinchat/MngOFhXgBnKxNDhGwWAIXw" class="link-item" target="_blank"><i class="fab fa-telegram"></i></a>
-
-      <h2>Redes sociais:</h2>
-      <div class="social-media">
-        <a href="https://www.instagram.com/obrunodev" class="link-item" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.github.com/obrunodev" class="link-item" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.twitch.com/obrunodev" class="link-item" target="_blank"><i class="fab fa-twitch"></i></a>
-        <a href="https://www.twitter.com/obrunodev" class="link-item" target="_blank"><i class="fab fa-twitter"></i></a>
+    <h2 class="mt-5 mb-5">Se você é programador, participe da minha comunidade</h2>
+    <div class="row m-auto">
+      <div class="col-sm">
+        <div class="card custom-card">
+          <div class="card-header">
+            <h5 class="card-title">Discord <i class="fab fa-discord"></i></h5>
+            <h6 class="card-subtitle mb-2 text-muted">Servidor</h6>
+            <p class="card-text text-start">Acesse o servidor do discorde organize-se em grupos de estudo ou trabalho, compartilhe conteúdo, participe de desafios e muito mais!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://discord.gg/YUx9YjU9Fu" class="btn btn-primary" target="_blank">Acessar</i></a>
+          </div>
+        </div>
       </div>
+      <div class="col-sm">
+        <div class="card custom-card">
+          <div class="card-header">
+            <h5 class="card-title">Whatsapp <i class="fab fa-whatsapp"></i></h5>
+            <h6 class="card-subtitle mb-2 text-muted">Grupo de mensagens</h6>
+            <p class="card-text text-start">Sem dúvidas um dos grupos mais interativos de programadores, sempre compartilhando conhecimento e experiências!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://chat.whatsapp.com/ILQr5JqqcaMCPJo2R38CTy" class="btn btn-primary" target="_blank">Acessar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card custom-card">
+          <div class="card-header">
+            <h5 class="card-title">Telegram <i class="fab fa-telegram"></i></h5>
+            <h6 class="card-subtitle mb-2 text-muted">Grupo de mensagens</h6>
+            <p class="card-text text-start">Grupo onde compartilhamos arquivos, vídeos e outros conteúdos diversos sobre programação!</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://t.me/joinchat/MngOFhXgBnKxNDhGwWAIXw" class="btn btn-primary" target="_blank">Acessar</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </main>
+    <h2 class="m-5">Me segue nas redes sociais</h2>
+    <div class="social-media">
+      <a href="https://www.instagram.com/pythonizando" class="link-item" target="_blank"><h3><i class="fab fa-instagram"> Instagram</i></h3></a>
+      <a href="https://www.github.com/obrunodev" class="link-item" target="_blank"><h3><i class="fab fa-github"> Github</i></h3></a>
+      <a href="https://www.twitch.com/obrunodev" class="link-item" target="_blank"><h3><i class="fab fa-twitch"> Twitch</i></h3></a>
+      <a href="https://www.twitter.com/obrunodev" class="link-item" target="_blank"><h3><i class="fab fa-twitter"> Twitter</i></h3></a>
+    </div>
+
+  </main>
 
   </div>
+
+  <!--Importando arquivos online Javascript do bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>
 </html>
