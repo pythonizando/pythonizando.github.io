@@ -1,8 +1,0 @@
-/* Importando fonte Fira Code */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-
-/* Personalização de card */
-.custom-card {
-  text-align: center;
-  width: 15rem;
-}
